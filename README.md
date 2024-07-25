@@ -6,6 +6,7 @@ Welcome to the Telemedicine Platform project! This platform aims to connect pati
 
 
 Tech Stack
+
 Frontend: React
 Backend: Spring Boot
 Video Calling: WebRTC
