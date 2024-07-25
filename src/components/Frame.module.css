@@ -1,0 +1,121 @@
+.whatsYourRole {
+    margin: 0;
+    position: absolute;
+    top: 156px;
+    left: 435px;
+    font-size: var(--title-02-semibold-size);
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: center;
+  }
+  .frameChild {
+    position: absolute;
+    top: 307.5px;
+    left: 538.5px;
+    border-top: 1px solid #ffb87a;
+    box-sizing: border-box;
+    width: 358px;
+    height: 1px;
+  }
+  .fa6SoliduserDoctorIcon {
+    width: 90px;
+    position: relative;
+    height: 104px;
+    overflow: visible;
+    flex-shrink: 0;
+  }
+  .expertDoctor {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .fa6SoliduserDoctorParent,
+  .frameWrapper {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fa6SoliduserDoctorParent {
+    width: 300px;
+    height: 300px;
+    gap: var(--gap-25xl);
+  }
+  .frameWrapper {
+    position: absolute;
+    top: 483px;
+    left: 139px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: var(--br-base);
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    padding: 34px 27px;
+    box-sizing: border-box;
+  }
+  .vectorIcon {
+    width: 72.8px;
+    position: relative;
+    height: 76.7px;
+  }
+  .patient {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .frameContainer,
+  .vectorParent {
+    position: absolute;
+    background-color: var(--color-mediumseagreen);
+  }
+  .vectorParent {
+    bottom: 50px;
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-25xl);
+  }
+  .frameContainer {
+    top: 483px;
+    left: 896px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: var(--br-base);
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .notostethoscopeIcon {
+    position: absolute;
+    top: 264px;
+    left: 318px;
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 1;
+  }
+  .whatsYourRoleParent {
+    width: 100%;
+    position: relative;
+    height: 1064px;
+    overflow: hidden;
+    text-align: left;
+
+    font-size: var(--font-size-14xl);
+    color: var(--color-darkslategray);
+    font-family: var(--title-02-semibold);
+    
+  }
+  

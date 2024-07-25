@@ -1,0 +1,22 @@
+.currencyRupeeIcon {
+    position: absolute;
+    top: 302px;
+    left: 440px;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+  }
+  .groupParent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-color: #41D399;
+    height: 100vh;
+    place-content: center;
+  }
+  .slot{
+    background-color: #41D399;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

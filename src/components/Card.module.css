@@ -1,0 +1,252 @@
+.cardChild,
+.cardInner,
+.cardItem {
+  position: absolute;
+  top: 0;
+  height: 561px;
+}
+.cardChild {
+  left: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.16);
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  width: 1200px;
+}
+.cardInner,
+.cardItem {
+  left: 854.1px;
+  border-radius: 0 var(--br-base) var(--br-base) 0;
+  width: 345.9px;
+}
+.cardItem {
+  object-fit: cover;
+}
+.cardInner {
+  background-color: var(--color-sandybrown);
+  opacity: 0.85;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen-200);
+  width: 64px;
+  height: 64px;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 7.3px;
+  left: 0;
+  border-radius: var(--br-29xl) var(--br-29xl) 0 0;
+  background-color: var(--color-white);
+  width: 11.4px;
+  height: 14.2px;
+  transform: rotate(-39.6deg);
+  transform-origin: 0 0;
+}
+.groupInner {
+  top: 23.2px;
+  left: 28.1px;
+  background-color: var(--color-sandybrown);
+  transform: rotate(139.8deg);
+}
+.ellipseParent,
+.rectangleParent {
+  position: absolute;
+  top: 16.4px;
+  left: 17.8px;
+  width: 28.1px;
+  height: 30.6px;
+}
+.ellipseParent {
+  top: 222px;
+  left: 995.6px;
+  width: 64px;
+  height: 64px;
+}
+.medifine {
+  position: absolute;
+  top: 302px;
+  left: 961.6px;
+  font-size: var(--font-size-9xl-4);
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+.age,
+.enterNameHere,
+.gender,
+.name {
+  position: absolute;
+  top: 203px;
+  left: 161.3px;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  width: 67.8px;
+}
+.age,
+.enterNameHere,
+.gender {
+  left: 558.3px;
+  width: 65.6px;
+}
+.enterNameHere,
+.gender {
+  top: 313px;
+  left: 161px;
+  width: 88px;
+}
+.enterNameHere {
+  top: 238px;
+  left: 161.3px;
+  width: 141.2px;
+}
+.enterAgeHere,
+.enterGenderHere,
+.enterNameHere {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  color: var(--color-darkgray);
+  text-align: left;
+}
+.enterAgeHere {
+  position: absolute;
+  top: 238px;
+  left: 558.3px;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  width: 141.2px;
+}
+.enterGenderHere {
+  top: 348px;
+  left: 161.3px;
+  width: 177.9px;
+}
+.enterGenderHere,
+.enterSymtomsHere,
+.enterYourDetails {
+  position: absolute;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.enterSymtomsHere {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  top: 348px;
+  left: 554px;
+  color: var(--color-darkgray);
+  white-space: pre-wrap;
+  text-align: left;
+  width: 175px;
+}
+.enterYourDetails {
+  top: 53px;
+  left: 58px;
+  font-size: var(--font-size-31xl-5);
+  font-weight: 600;
+  width: 495px;
+}
+.bxsuserIcon {
+  position: absolute;
+  top: 197px;
+  left: 47.8px;
+  width: 89px;
+  height: 80px;
+  overflow: hidden;
+  color: mediumseagreen;
+}
+.cardChild1,
+.cardChild2,
+.cardChild3,
+.lineDiv {
+  position: absolute;
+  top: 269.5px;
+  left: 155.2px;
+  border-top: 1px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+  width: 245.7px;
+  height: 1px;
+}
+.cardChild1,
+.cardChild2,
+.cardChild3 {
+  left: 552.2px;
+}
+.cardChild2,
+.cardChild3 {
+  top: 379.5px;
+  left: 155.2px;
+}
+.cardChild3 {
+  left: 547.8px;
+}
+.pay {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 24px);
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.makeAppointment {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen-200);
+  position: absolute;
+  top: calc(50% + 164.5px);
+  left: calc(50% - 279px);
+  box-shadow: 0 2px 10px rgba(65, 211, 153, 0.7);
+  border-radius: var(--br-5xs);
+  width: 244px;
+  height: 74px;
+}
+.symtoms {
+  position: absolute;
+  top: 313px;
+  left: 554px;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  width: 109px;
+}
+.bxsuserIcon1,
+.bxsuserIcon2,
+.bxsuserIcon3 {
+  position: absolute;
+  top: 203px;
+  left: 443px;
+  width: 89px;
+  height: 80px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.bxsuserIcon2,
+.bxsuserIcon3 {
+  top: 308px;
+  left: 452px;
+}
+.bxsuserIcon3 {
+  left: 48px;
+}
+.card {
+  width: 100%;
+  position: relative;
+  height: 561px;
+  text-align: left;
+  font-size: var(--font-size-2xl-3);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+  transform: translate(10%,15%);
+}

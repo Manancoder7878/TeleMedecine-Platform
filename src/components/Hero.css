@@ -1,0 +1,103 @@
+.homepage-design-icon,
+.notostethoscope-icon {
+  position: absolute;
+  top: 98px;
+  height: 926px;
+  object-fit: cover;
+}
+.notostethoscope-icon {
+  left: 0;
+  width: 967px;
+  overflow: visible;
+  opacity: 1;
+}
+.homepage-design-icon {
+  left: 710px;
+  width: 751px;
+}
+.hero-child {
+  border: 0;
+  background-color: transparent;
+  display: block;
+  font-family: var(--font-ibm-plex-sans);
+  font-size: 67.3px;
+  outline: 0;
+  position: absolute;
+  top: 331px;
+  left: 63px;
+  width: 626px;
+  height: 280px;
+  padding: 8px;
+  box-sizing: border-box;
+  font-weight: 700;
+  color: var(--color-darkslategray);
+}
+.were-always-available {
+  margin: 0;
+}
+.were-always-available-container {
+  margin: 0;
+  position: absolute;
+  width: 43.77%;
+  top: 63.57%;
+  left: 4.83%;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.make-appointment1 {
+  position: absolute;
+  top: 25px;
+  left: 42px;
+  font-size: var(--font-size-9xl-4);
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: var(--font-ibm-plex-sans);
+  color: var(--color-white);
+  text-align: center;
+}
+.make-appointment {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen);
+  position: absolute;
+  top: calc(50% + 290px);
+  left: calc(50% - 658.5px);
+  box-shadow: 0 2px 10px rgba(65, 211, 153, 0.7);
+  border-radius: 47px;
+  width: 344px;
+  height: 87px;
+}
+.hero-inner,
+.hero-item {
+  position: absolute;
+  height: 2.54%;
+  width: 1.77%;
+  top: 29.79%;
+  right: 93.48%;
+  bottom: 67.68%;
+  left: 4.76%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.hero-inner {
+  top: 70.31%;
+  right: 51.74%;
+  bottom: 27.15%;
+  left: 46.5%;
+  object-fit: contain;
+}
+.hero {
+  width: 100%;
+  position: relative;
+  height: 1024px;
+  text-align: left;
+  font-size: 21.3px;
+  color: #7c7c7c;
+  font-family: var(--font-ibm-plex-sans);
+}

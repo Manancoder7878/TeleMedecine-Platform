@@ -1,0 +1,198 @@
+.group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-mediumseagreen);
+    width: 64px;
+    height: 64px;
+  }
+  .group-inner,
+  .group-item {
+    position: absolute;
+    top: 7.3px;
+    left: 0;
+    border-radius: var(--br-29xl) var(--br-29xl) 0 0;
+    background-color: var(--color-white);
+    width: 11.4px;
+    height: 14.2px;
+    transform: rotate(-39.6deg);
+    transform-origin: 0 0;
+  }
+  .group-inner {
+    top: 23.2px;
+    left: 28.1px;
+    background-color: var(--color-sandybrown);
+    transform: rotate(139.8deg);
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 16.4px;
+    left: 17.8px;
+    width: 28.1px;
+    height: 30.6px;
+  }
+  .ellipse-parent {
+    width: 64px;
+    position: relative;
+    height: 64px;
+  }
+  .medifine {
+    position: relative;
+    font-size: var(--font-size-9xl-4);
+    letter-spacing: 0.02em;
+    font-family: var(--font-ibm-plex-sans);
+    color: var(--color-darkslategray);
+    text-align: left;
+  }
+  .home,
+  .logo {
+    position: absolute;
+  }
+  .logo {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 16px;
+    left: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .home {
+    top: calc(50% - 10px);
+    left: calc(50% - 23px);
+    font-size: var(--font-size-base);
+    letter-spacing: 0.02em;
+    font-family: var(--font-ibm-plex-sans);
+    color: var(--color-darkslategray);
+    text-align: left;
+  }
+  .home-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    width: 78px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-button:hover,
+  .home-wrapper:hover,
+  .menu-items-child:hover,
+  .menu-items-inner:hover {
+    color: var(--color-mediumseagreen);
+  }
+  .about-us {
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    font-size: var(--font-size-base);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-family: var(--font-ibm-plex-sans);
+    color: var(--color-darkslategray);
+    text-align: left;
+  }
+  .about-us:hover{
+    color: var(--color-mediumseagreen);
+  }
+  .contact-us:hover{
+    color: var(--color-mediumseagreen);
+  }
+  .home:hover{
+    color: var(--color-mediumseagreen);
+  }
+  .about-us-wrapper {
+    position: absolute;
+    top: calc(50% - 19px);
+    left: calc(50% - 43px);
+    width: 86px;
+    height: 37px;
+  }
+  .menu-items-inner {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    width: 100px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .our-services-wrapper {
+    position: absolute;
+    top: calc(50% - 19px);
+    left: calc(50% - 56.5px);
+    width: 114px;
+    height: 37px;
+  }
+  .menu-items-child {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    width: 127px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .contact-us {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: var(--font-size-base);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-family: var(--font-ibm-plex-sans);
+    color: var(--color-darkslategray);
+    text-align: left;
+  }
+  .frame-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    width: 115px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .menu-items {
+    position: absolute;
+    top: 32px;
+    left: 792px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .logo-parent,
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    overflow: hidden;
+  }
+  .logo-parent {
+    height: 1065.61%;
+    width: 100%;
+    right: 0;
+    bottom: -965.61%;
+  }
+  .navbar {
+    margin: 0;
+    width: 1461px;
+    height: 98px;
+  }
+  
