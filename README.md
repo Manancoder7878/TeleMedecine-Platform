@@ -43,7 +43,6 @@ Use the integrated Razorpay gateway to handle payments for consultations.
 
 
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 
