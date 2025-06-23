@@ -1,0 +1,19 @@
+
+.bookbtn{
+    width: 100px;              /* Equal width and height */
+    height: 50px;
+    background-color: #4CAF50; /* Background color */
+    color: white;             /* Text color */
+    border: none;             /* Remove border */
+    border-radius: 6%;       /* Make the button round */
+    display: inline-flex;     /* Center content horizontally */
+    align-items: center;      /* Center content vertically */
+    justify-content: center;  /* Center content horizontally */
+    font-size: 16px;          /* Font size */
+    cursor: pointer;          /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+    text-decoration: none; /* Smooth transition for background color */
+}
+.a{
+    text-decoration: none;
+}

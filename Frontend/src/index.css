@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-ibm-plex-sans: "IBM Plex Sans";
+
+  /* font sizes */
+  --font-size-9xl-4: 28.4px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-mediumseagreen: #20bc7e;
+  --color-white: #fff;
+  --color-darkslategray: #333;
+  --color-sandybrown: #ffb87a;
+
+  /* Gaps */
+  --gap-base: 16px;
+
+  /* Border radiuses */
+  --br-29xl: 48px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --title-02-semibold: "IBM Plex Sans";
+
+  /* font sizes */
+  --font-size-14xl: 33px;
+  --title-02-semibold-size: 67.3px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-mediumseagreen: #41d399;
+  --color-darkslategray: #333;
+
+  /* Gaps */
+  --gap-25xl: 44px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --title-02-semibold: "IBM Plex Sans";
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-14xl: 33px;
+  --title-02-semibold-size: 67.3px;
+  --font-size-2xl-3: 21.3px;
+  --font-size-5xl: 24px;
+  --font-size-31xl-5: 50.5px;
+  --font-size-base: 16px;
+  --font-size-9xl-4: 28.4px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-mediumseagreen-100: #41d399;
+  --color-mediumseagreen-200: #20bc7e;
+  --color-darkslategray: #333;
+  --color-sandybrown: #ffb87a;
+  --color-darkgray: #acacac;
+
+  /* Gaps */
+  --gap-25xl: 44px;
+  --gap-base: 16px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-5xs: 8px;
+  --br-29xl: 48px;
+}
